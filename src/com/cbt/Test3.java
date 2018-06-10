@@ -11,14 +11,13 @@ public class Test3 {
 				"C:/Users/pizza/Documents/selenium dependencies/drivers/chromedriver.exe");
 		        
 			    WebDriver driver = new ChromeDriver();
-	driver.navigate().to("http://www.cybertekschool.com");
+	driver.navigate().to("http://www.newtours.demoaut.com");
 	Thread.sleep(2000);
 	
 	/*Closes the current tab	 * */
 	 //driver.close(); 
 
 	driver.quit();
-	
 	
 	}
 }
